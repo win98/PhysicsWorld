@@ -1,0 +1,25 @@
+dependencies: \
+  /Users/Sergey/Desktop/PhysicsWorld/cocos2d/cocos/base/CCDataVisitor.cpp \
+  /Users/Sergey/Desktop/PhysicsWorld/cocos2d/build/../cocos/base/CCRef.h \
+  /Users/Sergey/Desktop/PhysicsWorld/cocos2d/build/../cocos/platform/CCPlatformMacros.h \
+  /Users/Sergey/Desktop/PhysicsWorld/cocos2d/build/../cocos/base/ccConfig.h \
+  /Users/Sergey/Desktop/PhysicsWorld/cocos2d/build/../cocos/platform/CCPlatformConfig.h \
+  /Users/Sergey/Desktop/PhysicsWorld/cocos2d/build/../cocos/platform/CCPlatformDefine.h \
+  /Users/Sergey/Desktop/PhysicsWorld/cocos2d/build/../cocos/platform/ios/CCPlatformDefine-ios.h \
+  /Users/Sergey/Desktop/PhysicsWorld/cocos2d/build/../cocos/deprecated/CCBool.h \
+  /Users/Sergey/Desktop/PhysicsWorld/cocos2d/build/../cocos/base/CCDataVisitor.h \
+  /Users/Sergey/Desktop/PhysicsWorld/cocos2d/build/../cocos/deprecated/CCInteger.h \
+  /Users/Sergey/Desktop/PhysicsWorld/cocos2d/build/../cocos/base/CCConsole.h \
+  /Users/Sergey/Desktop/PhysicsWorld/cocos2d/build/../cocos/base/ccMacros.h \
+  /Users/Sergey/Desktop/PhysicsWorld/cocos2d/build/../cocos/platform/CCStdC.h \
+  /Users/Sergey/Desktop/PhysicsWorld/cocos2d/build/../cocos/platform/ios/CCStdC-ios.h \
+  /Users/Sergey/Desktop/PhysicsWorld/cocos2d/build/../cocos/base/ccRandom.h \
+  /Users/Sergey/Desktop/PhysicsWorld/cocos2d/build/../cocos/platform/CCCommon.h \
+  /Users/Sergey/Desktop/PhysicsWorld/cocos2d/build/../cocos/deprecated/CCFloat.h \
+  /Users/Sergey/Desktop/PhysicsWorld/cocos2d/build/../cocos/deprecated/CCDouble.h \
+  /Users/Sergey/Desktop/PhysicsWorld/cocos2d/build/../cocos/deprecated/CCString.h \
+  /Users/Sergey/Desktop/PhysicsWorld/cocos2d/build/../cocos/deprecated/CCArray.h \
+  /Users/Sergey/Desktop/PhysicsWorld/cocos2d/build/../cocos/base/ccCArray.h \
+  /Users/Sergey/Desktop/PhysicsWorld/cocos2d/build/../cocos/deprecated/CCDictionary.h \
+  /Users/Sergey/Desktop/PhysicsWorld/cocos2d/build/../cocos/base/uthash.h \
+  /Users/Sergey/Desktop/PhysicsWorld/cocos2d/build/../cocos/deprecated/CCSet.h
