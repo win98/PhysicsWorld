@@ -65,6 +65,7 @@
 		A5FAA88A1A8397E8009E4B3F /* BaseLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5FAA8871A8397E8009E4B3F /* BaseLayer.cpp */; };
 		A5FAA88E1A84C7E7009E4B3F /* MaterialPoint.png in Resources */ = {isa = PBXBuildFile; fileRef = A5FAA88D1A84C7E7009E4B3F /* MaterialPoint.png */; };
 		A5FAA88F1A84C7EA009E4B3F /* MaterialPoint.png in Resources */ = {isa = PBXBuildFile; fileRef = A5FAA88D1A84C7E7009E4B3F /* MaterialPoint.png */; };
+		A5FAA8981A84EC61009E4B3F /* PHVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5FAA8951A84EC61009E4B3F /* PHVector.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -161,6 +162,9 @@
 		A5FAA8871A8397E8009E4B3F /* BaseLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseLayer.cpp; sourceTree = "<group>"; };
 		A5FAA8881A8397E8009E4B3F /* BaseLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseLayer.h; sourceTree = "<group>"; };
 		A5FAA88D1A84C7E7009E4B3F /* MaterialPoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MaterialPoint.png; sourceTree = "<group>"; };
+		A5FAA8941A84EC61009E4B3F /* PHEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHEngine.h; sourceTree = "<group>"; };
+		A5FAA8951A84EC61009E4B3F /* PHVector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PHVector.cpp; sourceTree = "<group>"; };
+		A5FAA8961A84EC61009E4B3F /* PHVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHVector.h; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -297,6 +301,7 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A5FAA8911A84EC61009E4B3F /* External */,
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
 				A5FAA8841A839704009E4B3F /* BaseScene.h */,
@@ -356,6 +361,24 @@
 			name = Icons;
 			path = ios;
 			sourceTree = SOURCE_ROOT;
+		};
+		A5FAA8911A84EC61009E4B3F /* External */ = {
+			isa = PBXGroup;
+			children = (
+				A5FAA8931A84EC61009E4B3F /* PhysicsLib */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		A5FAA8931A84EC61009E4B3F /* PhysicsLib */ = {
+			isa = PBXGroup;
+			children = (
+				A5FAA8941A84EC61009E4B3F /* PHEngine.h */,
+				A5FAA8951A84EC61009E4B3F /* PHVector.cpp */,
+				A5FAA8961A84EC61009E4B3F /* PHVector.h */,
+			);
+			path = PhysicsLib;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -505,6 +528,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5FAA8981A84EC61009E4B3F /* PHVector.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
