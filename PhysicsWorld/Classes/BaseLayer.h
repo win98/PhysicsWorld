@@ -15,6 +15,9 @@ NS_CC_BEGIN
 
 class BaseLayer : public cocos2d::Layer
 {
+private:
+    Sprite *point;
+    
 protected:
     cocos2d::EventListenerTouchAllAtOnce *_touchListener;
     
@@ -23,7 +26,10 @@ public:
     
     bool init();
     
-    virtual void onTouchesBegan(const std::vector<Touch*>& touches, Event *unused_event);
+    virtual void onTouchesBegan(const std::vector<Touch*>& touches, Event *unused_event) override;
+    virtual void onTouchesMoved(const std::vector<Touch*>& touches, Event *event) override;
+    virtual void onTouchesEnded(const std::vector<Touch*>& touches, Event *unused_event) override;
+    virtual void onTouchesCancelled(const std::vector<Touch*>&touches, Event *unused_event) override;
 };
 
 NS_CC_END

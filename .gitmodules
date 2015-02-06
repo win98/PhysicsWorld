@@ -1,0 +1,3 @@
+[submodule "PhysicsWorld/Classes/External"]
+	path = PhysicsWorld/Classes/External
+	url = https://github.com/win98/GamePhysics.git
